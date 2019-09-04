@@ -20,7 +20,7 @@ connection.once('open', () => {
 const exercicesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users')
 
-app.use('./exercices', exercicesRouter);
+app.use('./exercises', exercicesRouter);
 app.use('./users', usersRouter);
 
 app.listen(port, () => {
